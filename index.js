@@ -62,8 +62,14 @@ document.querySelectorAll("#vegList li").forEach(li => {
   const images = document.createElement('img');
 
   
+const orderButton = document.getElementById('order-button');
 
+orderButton.addEventListener('click', ()=>{
+    orderButton.textContent = 'Ordered';
+    orderButton.style.backgroundColor = 'red';
+});
 
+const paragraph = document.querySelector('p')
 
  
 
