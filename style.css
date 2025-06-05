@@ -7,6 +7,17 @@
     font-size: 8em;
     text-align: center;
   }
+  h1{
+    background-image:url(images/image-two.avif);
+    height: 30vh;
+    position: relative;
+    background-size: cover;
+    padding-top: 10%;
+    background-repeat:no-repeat;
+    
+
+    
+  }
   h3 {
     font-weight: normal;
     font-size: 3em;
@@ -45,6 +56,9 @@ p{
   font-size: 2em;
   text-align: center;
   margin: 0 auto;
+}
+footer{
+  margin-top: 4%;
 }
 
 
@@ -136,16 +150,17 @@ ul {
 
 
 @media only screen and (min-width:1000px){
-    body {
-        margin: 0;
+     body {
         width: 100%;
-        padding: 0;
         font-family: gotham;
         position: relative;
         height: 100%;
+        overflow: hidden;
+        margin: auto;
     }
     #title{
-        font-size: 5vw;
+        font-size: 3em;
+    }
     }
 
   }

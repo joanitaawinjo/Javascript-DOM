@@ -2,6 +2,7 @@ const body = document.body.style.backgroundColor = 'silver'
 
 const heading = document.getElementById('title')
 heading.style.color = 'green'
+heading.style.backgroundImage = 'images/apple-image.webp'
 
 
 document.querySelectorAll('h3').forEach(h3 => {
@@ -70,6 +71,9 @@ orderButton.addEventListener('click', ()=>{
 });
 
 const paragraph = document.querySelector('p')
+
+const hr = document.createElement('hr');
+
 
 const footer = document.createElement('footer');
 const copyright = document.createElement('p');
