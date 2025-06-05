@@ -48,7 +48,7 @@ const  vegImages = {
   "Tomatoes": "images/Tomato_je.jpg",
   "Kales": "images/kales.jpeg",
   "Cabagge": "images/cabagge.jpg"
-}
+};
 document.querySelectorAll("#vegList li").forEach(li => {
     const vegName = li.firstChild.textContent.trim();
     if (vegImages[vegName]) {
@@ -71,7 +71,15 @@ orderButton.addEventListener('click', ()=>{
 
 const paragraph = document.querySelector('p')
 
- 
+const footer = document.createElement('footer');
+const copyright = document.createElement('p');
+copyright.textContent = 'Greens Kiosk \u00A9 2025 ';
+
+footer.appendChild(copyright);
+footer.style.backgroundColor = 'brown';
+footer.style.padding = '2px';
+footer.style.height= '20vh';
+document.body.appendChild(footer);
 
 
 
